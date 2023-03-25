@@ -3,8 +3,19 @@ body{
     overflow: scroll;
 }
 
+p{
+    margin: 0;
+    padding: 0;
+}
+
+h3{
+    margin: 0;
+    padding: 0;
+}
+
 a{
     text-decoration: none;
+    color: rgb(35 31 32);
 }
 
 ul{
@@ -95,7 +106,7 @@ form {
     border-radius: inherit;
   }
 
-  button[type="submit"] {
+  button[type="search"] {
     text-indent: -999px;
     overflow: hidden;
     width: 40px;
@@ -112,6 +123,10 @@ form {
     margin-top: 2%;
     height: 50%;
     width: 6%;
+}
+
+#cart:hover{
+    transform: scale(1.1);
 }
 
 #cart a{
@@ -131,16 +146,161 @@ form {
 
 #offersBanner{
     width: 70%;
-    height: 100px;
-    border: 1px solid blue;
+    height: 70px;
     margin: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+}
+
+.offersTile{
+    height: 100%;
+    width: 16%;
+    margin: auto;
+}
+
+.offersTile:hover{
+    transform: scale(1.1);
+}
+
+a img{
+    height: 100%;
+    width: 100%;
 }
 
 #sellersObjects{
     width: 80%;
-    height: 1400px;
-    border: 1px solid greenyellow;
+    height: auto;
     margin: auto;
+    margin-bottom: 20px;
+}
+
+.sellersBanner{
+    margin-top: 30px;
+    width: 100%;
+    font-size: 35px;
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+}
+
+hr{
+    border-radius: 100%;
+}
+
+#bestSellers{
+    height: 350px;
+    width: 100%;
+    display: flex;
+}
+
+.bestSellersObjects{
+    height: 100%;
+    width: 15%;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+    border: 0.5px solid rgb(165 205 57);
+    border-radius: 0px 0px 25px 25px;
+}
+
+.bestSellersObjects:hover{
+    transform: scale(1.025);
+    border: 0.5px solid rgb(236 28 36) ;
+}
+
+.bestSellerImage{
+    height: 225px;
+    width: 100%;
+}
+
+.bestSellerImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.bestSellerDetails{
+    height: 125px;
+    width: 100%;
+    text-align: center;
+    color: #555;
+}
+
+h3{
+    font-size: 25px;
+    color: #555;
+    font-weight: bold;
+}
+
+.bestSellersText{
+    font-size: 25px;
+    color: #555;
+    font-weight: bold;
+}
+
+.bestSellerDetails img{
+    height: 35px;
+    width: 35px;
+}
+
+.bestSellerDetails button{
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: rgb(252 225 123);
+    color: rgb(236 28 36);
+    border: 0px solid rgb(165 205 57);
+    box-shadow: 1px 1px 1px rgb(165 205 57);
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+#categoriesBanner{
+    width: 100%;
+    display: flex;
+}
+
+.categoriesTiles{
+    width: 15%;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+    border: 0.5px solid rgb(165 205 57);
+}
+
+.categoriesTiles:hover{
+    transform: scale(1.025);
+    border: 0.5px solid rgb(236 28 36) ;
+}
+
+.categoriesImage{
+    width: 100%;
+    height:125px;
+}
+
+.categoriesImage img{
+    height: 100%;
+    width: 100%;
+}
+
+.categoriesDetails{
+    width: 100%;
+    height:auto;
+    text-align: center;
+}
+
+.categoriesDetails a p{
+    height: 50px;
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+}
+
+.categoriesDetails a span{
+    font-size: 15px;
+    color: #555;
+}
+
+.categoriesDetails a img{
+    height: auto;
+    width: auto;
 }
 
 #bankOffers{
