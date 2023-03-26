@@ -226,6 +226,11 @@ hr{
     color: #555;
 }
 
+.productDetails{
+    width: 100%;
+    height: 45px;
+}
+
 h3{
     font-size: 20px;
     color: #555;
@@ -241,6 +246,11 @@ h3{
 .bestSellerDetails img{
     height: 35px;
     width: 35px;
+}
+
+.deliveryOptions{
+    width: 100%;
+    height: 45px;
 }
 
 .bestSellerDetails button{
