@@ -170,10 +170,9 @@ a img{
 
 #sellersObjects{
     width: 80%;
-    height: 1600px;
+    height: 1320px;
     margin: auto;
     margin-bottom: 20px;
-    border: 1px solid red;
 }
 
 .sellersBanner{
@@ -196,7 +195,7 @@ hr{
 }
 
 .bestSellersObjects{
-    height: 100%;
+    height: 350px;
     width: 15%;
     margin: auto;
     box-shadow: 5px 5px 5px rgba(33,33,33,.2);
@@ -314,9 +313,40 @@ h3{
 
 #brands{
     width: 80%;
-    height: 250px;
-    border: 1px solid pink;
+    height: 255px;
     margin: auto;
+}
+
+.brandsName{
+    width: 100%;
+    font-size: 35px;
+    color: #555;
+    text-align: center;
+    font-weight: bold;
+}
+
+#brandsBanner{
+    height: 190px;
+    width: 100%;
+    display: flex;
+}
+
+.brandsTiles{
+    height: 100%;
+    width: 15%;
+    margin: auto;
+    box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+    border: 0.5px solid rgb(165 205 57);
+}
+
+.brandsTiles:hover{
+    transform: scale(1.025);
+    border: 0.5px solid rgb(236 28 36) ;
+}
+
+.brandsTiles img{
+    height: 100%;
+    width: 100%;
 }
 
 footer{
