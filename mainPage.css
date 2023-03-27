@@ -31,7 +31,7 @@ header{
 }
 
 #logo{
-    height: 100%;
+    height: 95%;
     width: 17%;
     display: flex;
     margin-top: 5px;
@@ -479,6 +479,13 @@ ul a img{
         margin: auto;
         display: flex;
     }
+
+    #logo {
+        height: 95%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 1600px){
@@ -486,6 +493,13 @@ ul a img{
         width: 100%;
         height: 500px;
         margin-top: 10px;
+    }
+
+    #logo {
+        height: 90%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
     }
 
     #offersBanner {
@@ -505,6 +519,13 @@ ul a img{
         margin: auto;
         display: flex;
     }
+
+    #logo {
+        height: 90%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
+    }
 }
 
 @media screen and (max-width: 1400px){
@@ -513,6 +534,13 @@ ul a img{
         height: 100px;
         margin: auto;
         display: flex;
+    }
+
+    #logo {
+        height: 90%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
     }
 
     #offersBanner {
@@ -560,6 +588,13 @@ ul a img{
         width: 90;
     }
 
+    #logo {
+        height: 85%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
+    }
+
     #sellersObjects {
         width: 90%;
         height: 1320px;
@@ -594,6 +629,13 @@ ul a img{
     header{
         width: 100%;
         margin-left: 43px;;
+    }
+
+    #logo {
+        height: 80%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
     }
 
     #offersImageSlider{
@@ -643,15 +685,29 @@ ul a img{
 
 @media screen and (max-width: 1100px){
     header{
-        width: 108%;
+        width: 100%;
         margin-left: 43px;;
+    }
+
+    #logo {
+        height: 80%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
     }
 }
 
 @media screen and (max-width: 1000px){
     header{
-        width: 120%;
+        width: 100%;
         margin-left: 43px;;
+    }
+
+    #logo {
+        height: 80%;
+        width: 17%;
+        display: flex;
+        margin-top: 5px;
     }
 
     #searchSection {
