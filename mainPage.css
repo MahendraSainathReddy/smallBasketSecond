@@ -237,12 +237,6 @@ h3{
     font-weight: bold;
 }
 
-.bestSellersText{
-    font-size: 25px;
-    color: #555;
-    font-weight: bold;
-}
-
 .bestSellerDetails img{
     height: 35px;
     width: 35px;
@@ -476,4 +470,284 @@ ul a img{
 #disclaimer{
     text-align: center;
     color: rgb(138, 137, 137);
+}
+
+@media screen and (max-width: 1700px){
+    header{
+        width: 80%;
+        height: 100px;
+        margin: auto;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1600px){
+    #offersImageSlider{
+        width: 100%;
+        height: 500px;
+        margin-top: 10px;
+    }
+
+    #offersBanner {
+        width: 80%;
+        height: 70px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+    }    
+}
+
+@media screen and (max-width: 1500px){
+    header{
+        width: 85%;
+        height: 100px;
+        margin: auto;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 1400px){
+    header{
+        width: 90%;
+        height: 100px;
+        margin: auto;
+        display: flex;
+    }
+
+    #offersBanner {
+        width: 85%;
+        height: 70px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+    }
+    
+    .sellersBanner{
+        margin-top: 30px;
+        width: 100%;
+        font-size: 30px;
+        color: #555;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    h3{
+        font-size: 15px;
+        color: #555;
+        font-weight: bold;
+    }
+
+    p{
+        font-size: 14px;
+    }
+
+    .categoriesDetails a p{
+        height: 50px;
+        font-size: 16px;
+        color: #555;
+        font-weight: bold;
+    }
+}
+
+@media screen and (max-width: 1300px){
+    header{
+        width: 93%;
+    }
+    #logo img{
+        height: 90%;
+        width: 90;
+    }
+
+    #sellersObjects {
+        width: 90%;
+        height: 1320px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #brands {
+        width: 90%;
+        height: 255px;
+        margin: auto;
+    }
+
+    #bankOffers {
+        width: 90%;
+        height: 260px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bestSellersObjects {
+        height: 350px;
+        width: 15%;
+        margin: auto;
+        box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+        border: 0.5px solid rgb(165 205 57);
+        border-radius: 0px 0px 25px 25px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    header{
+        width: 100%;
+        margin-left: 43px;;
+    }
+
+    #offersImageSlider{
+        width: 100%;
+        height: 475px;
+        margin-top: 10px;
+    }
+
+    #offersBanner {
+        width: 90%;
+        height: 70px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+    }
+
+    #sellersObjects {
+        width: 95%;
+        height: 1320px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #brands {
+        width: 95%;
+        height: 255px;
+        margin: auto;
+    }
+
+    #bankOffers {
+        width: 95%;
+        height: 260px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .bestSellersObjects {
+        height: 350px;
+        width: 17.5%;
+        margin: auto;
+        box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+        border: 0.5px solid rgb(165 205 57);
+        border-radius: 0px 0px 25px 25px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    header{
+        width: 108%;
+        margin-left: 43px;;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    header{
+        width: 120%;
+        margin-left: 43px;;
+    }
+
+    #searchSection {
+        width: 50%;
+        height: 38px;
+        margin-top: 25px;
+    }
+
+    #offersImageSlider{
+        width: 100%;
+        height: 420px;
+        margin-top: 10px;
+    }
+
+    #offersBanner {
+        width: 93%;
+        height: 60px;
+        margin: auto;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        display: flex;
+    }
+
+    .bestSellerImage {
+        height: 200px;
+        width: 100%;
+    }
+
+    .bestSellersObjects {
+        height: 350px;
+        width: 20%;
+        margin: auto;
+        box-shadow: 5px 5px 5px rgba(33,33,33,.2);
+        border: 0.5px solid rgb(165 205 57);
+        border-radius: 0px 0px 25px 25px;
+    }
+
+    #footerTop {
+        height: 300px;
+        width: 75%;
+        margin: auto;
+        display: flex;
+    }
+
+    footer {
+        width: 100%;
+        height: 550px;
+        color: rgb(79 79 79);
+    }
+}
+
+@media screen and (max-width: 900px){
+    #logo img {
+        height: 80%;
+        width: 90;
+    }
+
+    #cart {
+        margin-left: 2%;
+        margin-top: 2%;
+        height: 49%;
+        width: 7%;
+    }
+
+    #sellersObjects {
+        width: 100%;
+        height: 1320px;
+        margin: auto;
+        margin-bottom: 20px;
+    }
+
+    #brands {
+        width: 100%;
+        height: 255px;
+        margin: auto;
+    }
+
+    #bankOffers {
+        width: 100%;
+        height: 260px;
+        margin: auto;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #footerTop {
+        height: 300px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+    }
+
+    #logo img {
+        height: 70%;
+        width: 90;
+    }
+
 }
