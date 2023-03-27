@@ -28,6 +28,7 @@ header{
     height: 100px;
     margin: auto;
     display: flex;
+    margin-left: 20%;
 }
 
 #logo{
@@ -478,6 +479,7 @@ ul a img{
         height: 100px;
         margin: auto;
         display: flex;
+        margin-left: 16%;
     }
 
     #logo {
@@ -518,6 +520,7 @@ ul a img{
         height: 100px;
         margin: auto;
         display: flex;
+        margin-left: 15%;
     }
 
     #logo {
@@ -534,6 +537,7 @@ ul a img{
         height: 100px;
         margin: auto;
         display: flex;
+        margin-left: 13%;
     }
 
     #logo {
@@ -582,6 +586,7 @@ ul a img{
 @media screen and (max-width: 1300px){
     header{
         width: 93%;
+        margin-left: 12%;
     }
     #logo img{
         height: 90%;
@@ -628,7 +633,7 @@ ul a img{
 @media screen and (max-width: 1200px){
     header{
         width: 100%;
-        margin-left: 43px;;
+        margin-left: 9%;
     }
 
     #logo {
@@ -686,7 +691,7 @@ ul a img{
 @media screen and (max-width: 1100px){
     header{
         width: 100%;
-        margin-left: 43px;;
+        margin-left: 10%;
     }
 
     #logo {
@@ -700,7 +705,7 @@ ul a img{
 @media screen and (max-width: 1000px){
     header{
         width: 100%;
-        margin-left: 43px;;
+        margin-left: 15%;
     }
 
     #logo {
