@@ -1,7 +1,6 @@
 body{
     margin: 0px;
     overflow: scroll;
-    background-color: #f0f0f0;
 }
 
 p{
@@ -24,7 +23,6 @@ ul{
 }
 
 header{
-    border: 1px solid red;
     width: 60%;
     height: 100px;
     margin: auto;
