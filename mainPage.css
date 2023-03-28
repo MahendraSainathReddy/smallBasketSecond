@@ -23,7 +23,7 @@ ul{
 }
 
 header{
-    width: 60%;
+    width: 70%;
     height: 100px;
     margin: auto;
     display: flex;
@@ -472,6 +472,16 @@ ul a img{
     color: rgb(138, 137, 137);
 }
 
+@media screen and (max-width: 1800px){
+    header{
+        width: 80%;
+        height: 100px;
+        margin: auto;
+        margin-left: 16%;
+    }
+
+}
+
 @media screen and (max-width: 1700px){
     header{
         width: 80%;
@@ -530,7 +540,7 @@ ul a img{
 
 @media screen and (max-width: 1400px){
     header{
-        width: 80%;
+        width: 85%;
         height: 100px;
         margin: auto;
         margin-left: 13%;
