@@ -4,11 +4,13 @@
     <title>Small Basket - Online Grocery Shopping and Online Supermarket in India</title>
     <link rel="icon" href="https://i.ibb.co/wSrxhkJ/image.png">
     <link rel="stylesheet" href="mainPage.css">
+    <script src="homepage.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
 </head>
 <body>
     <header>
         <div id="logo">
-            <img src="https://i.ibb.co/0XjmwRZ/image.png" alt="smallbasket">
+            <img src="https://i.ibb.co/0XjmwRZ/image.png" alt="smallbasket" id="logoToggle">
             <!-- <div id="logoImage">
                 <span id="logoFirst">s</span>
                 <span id="logoSecond">b</span>
@@ -30,11 +32,23 @@
         </div>
         <div id="cart">
             <a href="#">
-                <img src="https://i.ibb.co/fkSXHJw/image.png" alt="cart">
+                <i class="bi bi-basket" id="cartLogo"></i>
                 <span>My Basket</span>
             </a>
         </div>
     </header>
+    <div id="darkModeOptions">
+        <div id="darkModeTextDiv">
+            <span id="darkLightMode">
+                Save battery life and reduce blue light emissions with dark mode
+            </span>
+        </div>
+        <div id="darkModeTextButton">
+            <a onclick="changeMode()">
+                <i id="darkModeButton" class="bi bi-toggle-off fs-5"></i>
+            </a>
+        </div>
+    </div>
     <div id="offersImageSlider">
         <a href="#">
             <img id="sliderImage" src="https://i.ibb.co/cJjyXy1/image.png" alt="fresho meat">
@@ -83,7 +97,7 @@
                         <p>M.R.P : <del>Rs.33/KG</del> <b>Rs.25/KG</b></p>
                     </div>
                     <div class="deliveryOptions">
-                        <img src="https://i.ibb.co/rQvF0t5/cargo.png" alt="delivery">
+                        <i class="bi bi-truck deliveryTruck greenTruck"></i>
                         <span>Standard Delivery</span>
                     </div>
                     <button type="submit">Add to Basket</button>
@@ -99,7 +113,7 @@
                         <p>M.R.P : <del>Rs.75/Dozen</del> <b>Rs.65/Dozen</b></p>
                     </div>
                     <div class="deliveryOptions">
-                        <img src="https://i.ibb.co/rQvF0t5/cargo.png" alt="delivery">
+                        <i class="bi bi-truck deliveryTruck greenTruck"></i>
                         <span>Standard Delivery</span>
                     </div>
                     <button type="submit">Add to Basket</button>
@@ -115,7 +129,7 @@
                         <p>M.R.P : <del>Rs.45/500ml</del> <b>Rs.40/500ml</b></p>
                     </div>
                     <div class="deliveryOptions">
-                        <img src="https://i.ibb.co/0Xj8RD3/cargo.png" alt="delivery">
+                        <i class="bi bi-truck deliveryTruck redTruck"></i>
                         <span>Fast Delivery</span>
                     </div>
                     <button type="submit">Add to Basket</button>
@@ -131,7 +145,7 @@
                         <p>M.R.P : <del>Rs.75/125ml</del> <b>Rs.70/125ml</b></p>
                     </div>
                     <div class="deliveryOptions">
-                        <img src="https://i.ibb.co/rQvF0t5/cargo.png" alt="delivery">
+                        <i class="bi bi-truck deliveryTruck greenTruck"></i>
                         <span>Standard Delivery</span>
                     </div>
                     <button type="submit">Add to Basket</button>
@@ -462,7 +476,7 @@
         <div id="footerBottom">
             <div class="bottomDetails">
                 <div class="row">
-                    <p>POPULAR CATEGORIES:</p>
+                    <h4>POPULAR CATEGORIES:</h4>
                 </div>
                 <div class="column">
                     <p>
@@ -483,7 +497,7 @@
             </div>
             <div class="bottomDetails">
                 <div class="row">
-                    <p>POPULAR BRANDS:</p>
+                    <h4>POPULAR BRANDS:</h4>
                 </div>
                 <div class="column">
                     <p>
