@@ -94,3 +94,13 @@ function changeMode() {
 
     }
 }
+
+function loadCoupon(){
+    document.getElementById('MyCoupon').style.visibility = 'visible';
+    document.getElementById('mainPage').style.opacity = '0.3'
+}
+
+function closeCoupon(){
+    document.getElementById('MyCoupon').style.visibility = 'hidden';
+    document.getElementById('mainPage').style.opacity = '1'
+}
