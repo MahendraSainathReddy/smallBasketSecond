@@ -39,6 +39,19 @@
                 </a>
             </div>
         </header>
+        <div id="weatherDiv">
+            <div id="geoLocationName">
+                <i class="bi bi-geo-fill"></i>
+                <span id="locationName"></span>
+            </div>
+            <div id="CurrentWeather">
+                <span>Current Weather Conditions: </span>
+                <div>
+                    <img src="https://i.ibb.co/ZzkYNtk/image.png" alt="temperatureIcon" id="temperatureIcon">
+                </div>
+                <span id="temperatureSpan"></span>
+            </div>
+        </div>
         <div id="darkModeOptions">
             <div id="darkModeTextDiv">
                 <span id="darkLightMode">
@@ -558,6 +571,7 @@
     
     <script>
         window.onload = loadCoupon()
+        window.onload = geolocation()
     </script>
     
 

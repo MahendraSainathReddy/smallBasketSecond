@@ -170,13 +170,46 @@ form {
 
 }
 
+#weatherDiv{
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    visibility: visible;
+}
+
+#geoLocationName{
+    width: 200px;
+    margin-left: 25%;
+    margin-top: 10px;
+    font-size: 25px;
+}
+
+#locationName{
+    margin-left: 15px;
+}
+
+#CurrentWeather{
+    font-size: 25px;
+    display: flex;
+}
+
+#CurrentWeather span{
+    margin-top: 10px;
+}
+
+#temperatureIcon{
+    height: 40px;
+    width: 40px;
+}
+
 #darkModeOptions{
     height: 50px;
     font-size: 25px;
     margin: auto;
     margin-top: 20px;
     display: flex;
-    
+    margin-left: 70px;
 }
 
 #darkModeTextDiv{
